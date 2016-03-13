@@ -15,3 +15,4 @@ sudo apt-get install -y nodejs
 
 #install mantra specific stuff
 sudo npm install -g mantra-cli
+apm install mantrajs atom-bootstrap3 atom-handlebars color-picker copy-filename jsformat language-spacebars less-autocompile line-count linter linter-eslint linter-handlebars merge-conflicts meteor-api meteor-helper minimap
