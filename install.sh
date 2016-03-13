@@ -12,7 +12,33 @@ echo "installing node"
 curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
+#meteor specific stuff
+apm install meteor-api
+apm install meteor-helper
 
 #install mantra specific stuff
 sudo npm install -g mantra-cli
-apm install mantrajs atom-bootstrap3 atom-handlebars color-picker copy-filename jsformat language-spacebars less-autocompile line-count linter linter-eslint linter-handlebars merge-conflicts meteor-api meteor-helper minimap
+apm install mantrajs
+
+apm install atom-bootstrap3
+apm install atom-handlebars
+apm install color-picker
+apm install copy-filename
+apm install jsformat
+apm install language-spacebars
+apm install less-autocompile
+apm install line-count
+apm install linter-handlebars
+apm install merge-conflicts
+apm install minimap
+
+#installing linter tools
+apm install linter
+apm install linter-eslint
+
+
+#github ssh
+#guide here https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+ssh-keygen -t rsa -b 4096 -C "email@example.com"v
+ssh-add ~/.ssh/id_rsa
+sudo apt-get install xclip
