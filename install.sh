@@ -42,3 +42,5 @@ apm install linter-eslint
 ssh-keygen -t rsa -b 4096 -C "email@example.com"v
 ssh-add ~/.ssh/id_rsa
 sudo apt-get install xclip
+
+sudo apt-get install keepassx
